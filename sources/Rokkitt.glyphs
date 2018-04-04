@@ -1,8 +1,5 @@
 {
-.appVersion = "976";
-DisplayStrings = (
-"\U00A5"
-);
+.appVersion = "1126";
 copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
 customParameters = (
 {
@@ -41,6 +38,19 @@ value = 1;
 {
 name = note;
 value = "Interpolation passes:\012kgreenlandic\012f_f\012peseta\012s";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+},
+{
+name = "Variation Font Origin";
+value = "BE4F947C-73D7-4684-AEED-17801393DA53";
 }
 );
 date = "2016-12-06 21:35:03 +0000";
@@ -210,6 +220,15 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
 }
 );
 descender = -200;
@@ -276,6 +295,15 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 descender = -200;
@@ -342,6 +370,15 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
 }
 );
 descender = -200;
@@ -585,8 +622,8 @@ nodes = (
 );
 }
 );
-width = 829;
 visible = 1;
+width = 829;
 },
 {
 anchors = (
@@ -4862,8 +4899,8 @@ transform = "{1, 0, 0, 1, 5, 0}";
 );
 layerId = "BAA406FF-49C5-466D-83C0-ACB4216E0C70";
 name = "Bold Aug 19 16, 16:45";
-width = 750;
 visible = 1;
+width = 750;
 }
 );
 unicode = 0043;
@@ -17281,8 +17318,8 @@ nodes = (
 );
 }
 );
-width = 705;
 visible = 1;
+width = 705;
 }
 );
 leftMetricsKey = H;
@@ -19546,8 +19583,8 @@ nodes = (
 );
 }
 );
-width = 736;
 visible = 1;
+width = 736;
 }
 );
 leftMetricsKey = O;
@@ -21120,8 +21157,8 @@ nodes = (
 );
 }
 );
-width = 1206;
 visible = 1;
+width = 1206;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -21516,8 +21553,8 @@ nodes = (
 );
 }
 );
-width = 665;
 visible = 1;
+width = 665;
 },
 {
 anchors = (
@@ -22204,8 +22241,8 @@ nodes = (
 );
 }
 );
-width = 671;
 visible = 1;
+width = 671;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -22545,8 +22582,8 @@ nodes = (
 );
 }
 );
-width = 768;
 visible = 1;
+width = 768;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -23014,8 +23051,8 @@ nodes = (
 );
 }
 );
-width = 766;
 visible = 1;
+width = 766;
 },
 {
 anchors = (
@@ -24610,8 +24647,8 @@ nodes = (
 );
 }
 );
-width = 589;
 visible = 1;
+width = 589;
 }
 );
 unicode = 0053;
@@ -30361,8 +30398,8 @@ nodes = (
 );
 }
 );
-width = 769;
 visible = 1;
+width = 769;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -30849,8 +30886,8 @@ nodes = (
 );
 }
 );
-width = 715;
 visible = 1;
+width = 715;
 },
 {
 anchors = (
@@ -32757,8 +32794,8 @@ nodes = (
 );
 }
 );
-width = 507;
 visible = 1;
+width = 507;
 },
 {
 anchors = (
@@ -36732,8 +36769,8 @@ nodes = (
 );
 }
 );
-width = 601;
 visible = 1;
+width = 601;
 },
 {
 anchors = (
@@ -37463,7 +37500,7 @@ y = 819;
 },
 {
 smooth = 0;
-x = 268.9680;
+x = 268.968;
 y = 819;
 },
 {
@@ -38824,8 +38861,8 @@ nodes = (
 );
 }
 );
-width = 525;
 visible = 1;
+width = 525;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -40180,8 +40217,8 @@ nodes = (
 );
 }
 );
-width = 474;
 visible = 1;
+width = 474;
 }
 );
 unicode = 0065;
@@ -40250,7 +40287,7 @@ y = 601;
 },
 {
 smooth = 0;
-x = 778.7680;
+x = 778.768;
 y = 819;
 },
 {
@@ -42637,8 +42674,8 @@ nodes = (
 );
 }
 );
-width = 469;
 visible = 1;
+width = 469;
 },
 {
 anchors = (
@@ -43166,8 +43203,8 @@ nodes = (
 );
 }
 );
-width = 568;
 visible = 1;
+width = 568;
 },
 {
 anchors = (
@@ -44444,8 +44481,8 @@ nodes = (
 );
 }
 );
-width = 520;
 visible = 1;
+width = 520;
 },
 {
 anchors = (
@@ -50260,8 +50297,8 @@ nodes = (
 );
 }
 );
-width = 791;
 visible = 1;
+width = 791;
 }
 );
 leftMetricsKey = n;
@@ -50752,8 +50789,8 @@ nodes = (
 );
 }
 );
-width = 497;
 visible = 1;
+width = 497;
 },
 {
 anchors = (
@@ -50808,8 +50845,8 @@ nodes = (
 );
 }
 );
-width = 533;
 visible = 1;
+width = 533;
 }
 );
 unicode = 006E;
@@ -51641,8 +51678,8 @@ nodes = (
 );
 }
 );
-width = 633;
 visible = 1;
+width = 633;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -55470,8 +55507,8 @@ nodes = (
 );
 }
 );
-width = 762;
 visible = 1;
+width = 762;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -56071,8 +56108,8 @@ nodes = (
 );
 }
 );
-width = 575;
 visible = 1;
+width = 575;
 },
 {
 anchors = (
@@ -56944,8 +56981,8 @@ nodes = (
 );
 }
 );
-width = 568;
 visible = 1;
+width = 568;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -59838,8 +59875,8 @@ nodes = (
 );
 }
 );
-width = 583;
 visible = 1;
+width = 583;
 }
 );
 unicode = 00DF;
@@ -64185,8 +64222,8 @@ nodes = (
 );
 }
 );
-width = 544;
 visible = 1;
+width = 544;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -66889,8 +66926,8 @@ nodes = (
 );
 }
 );
-width = 571;
 visible = 1;
+width = 571;
 },
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -70413,8 +70450,8 @@ nodes = (
 );
 }
 );
-width = 598;
 visible = 1;
+width = 598;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -71017,8 +71054,8 @@ nodes = (
 );
 }
 );
-width = 604;
 visible = 1;
+width = 604;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -71303,8 +71340,8 @@ nodes = (
 );
 }
 );
-width = 596;
 visible = 1;
+width = 596;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -72193,8 +72230,8 @@ nodes = (
 );
 }
 );
-width = 595;
 visible = 1;
+width = 595;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -72620,8 +72657,8 @@ nodes = (
 );
 }
 );
-width = 602;
 visible = 1;
+width = 602;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -82755,8 +82792,8 @@ nodes = (
 );
 }
 );
-width = 543;
 visible = 1;
+width = 543;
 }
 );
 unicode = 00A4;
@@ -85348,8 +85385,8 @@ nodes = (
 );
 }
 );
-width = 619;
 visible = 1;
+width = 619;
 }
 );
 unicode = 20B9;
@@ -86374,8 +86411,8 @@ nodes = (
 );
 }
 );
-width = 485;
 visible = 1;
+width = 485;
 },
 {
 associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -96860,8 +96897,8 @@ nodes = (
 );
 }
 );
-width = 201;
 visible = 1;
+width = 201;
 }
 );
 unicode = 2020;
@@ -97323,8 +97360,8 @@ nodes = (
 );
 }
 );
-width = 247;
 visible = 1;
+width = 247;
 }
 );
 unicode = 2021;
@@ -105078,6 +105115,10 @@ value = -320;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 instanceInterpolations = {
@@ -105135,8 +105176,8 @@ value = 275;
 );
 interpolationWeight = 198;
 instanceInterpolations = {
-"98C086B7-81AA-4491-8494-0C6A76849168" = 0.673333;
-"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.326667;
+"98C086B7-81AA-4491-8494-0C6A76849168" = 0.67333;
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.32667;
 };
 name = ExtraLight;
 weightClass = ExtraLight;
@@ -105186,8 +105227,8 @@ value = 0;
 );
 interpolationWeight = 267;
 instanceInterpolations = {
-"98C086B7-81AA-4491-8494-0C6A76849168" = 0.443333;
-"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.556667;
+"98C086B7-81AA-4491-8494-0C6A76849168" = 0.44333;
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.55667;
 };
 name = Light;
 weightClass = Light;
@@ -105500,10 +105541,10 @@ weightClass = Black;
 kerning = {
 "98C086B7-81AA-4491-8494-0C6A76849168" = {
 F = {
-g = -0.976562;
+g = -0.97656;
 };
 L = {
-quotedblright = -160.156;
+quotedblright = -160.15601;
 quoteright = -123.047;
 };
 c = {
@@ -105518,7 +105559,7 @@ quotedblright = 25.8789;
 quoteright = 20.0195;
 };
 g = {
-g = -0.488281;
+g = -0.48828;
 };
 };
 "BE4F947C-73D7-4684-AEED-17801393DA53" = {
@@ -105549,7 +105590,7 @@ F = {
 g = -7.32422;
 };
 L = {
-quotedblright = -170.898;
+quotedblright = -170.89799;
 quoteright = -129.883;
 };
 c = {
@@ -105595,7 +105636,7 @@ com.typemytype.robofont.b.layerStrokeColor = (
 1,
 0.75,
 0,
-0.7000
+0.7
 );
 com.typemytype.robofont.compileSettings.MacRomanFirst = 1;
 com.typemytype.robofont.compileSettings.autohint = 0;
@@ -105608,7 +105649,7 @@ com.typemytype.robofont.foreground.layerStrokeColor = (
 0.5,
 0,
 0.5,
-0.7000
+0.7
 );
 com.typemytype.robofont.italicSlantOffset = 0;
 com.typemytype.robofont.layerOrder = (
