@@ -1,6 +1,9 @@
 {
-.appVersion = "1141";
-copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
+.appVersion = "1192";
+DisplayStrings = (
+g
+);
+copyright = "Copyright 2016 The Rokkit Project Authors (https://github.com/googlefonts/RokkittFont)";
 customParameters = (
 {
 name = vendorID;
@@ -34,19 +37,6 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
-},
-{
-name = note;
-value = "Interpolation passes:\012kgreenlandic\012f_f\012peseta\012s";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
 }
 );
 date = "2016-12-06 21:35:03 +0000";
@@ -216,15 +206,6 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-}
-);
 }
 );
 descender = -200;
@@ -291,15 +272,6 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -200;
@@ -366,15 +338,6 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-}
-);
 }
 );
 descender = -200;
@@ -36541,17 +36504,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"402 -10 OFFCURVE",
-"497 67 OFFCURVE",
-"497 202 CURVE SMOOTH",
-"497 332 OFFCURVE",
-"412 403 OFFCURVE",
-"306 403 CURVE SMOOTH",
-"252 403 OFFCURVE",
-"191 380 OFFCURVE",
-"148 338 CURVE",
-"172 338 LINE",
-"172 573 LINE",
 "27 573 LINE",
 "27 521 LINE",
 "98 521 LINE",
@@ -36563,12 +36515,29 @@ nodes = (
 "151 55 LINE",
 "187 11 OFFCURVE",
 "235 -10 OFFCURVE",
-"293 -10 CURVE SMOOTH"
+"293 -10 CURVE SMOOTH",
+"402 -10 OFFCURVE",
+"497 67 OFFCURVE",
+"497 202 CURVE SMOOTH",
+"497 332 OFFCURVE",
+"412 403 OFFCURVE",
+"306 403 CURVE SMOOTH",
+"252 403 OFFCURVE",
+"191 380 OFFCURVE",
+"148 338 CURVE",
+"172 338 LINE",
+"172 573 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"363 346 OFFCURVE",
+"420 292 OFFCURVE",
+"420 196 CURVE SMOOTH",
+"420 97 OFFCURVE",
+"359 45 OFFCURVE",
+"280 45 CURVE SMOOTH",
 "235 45 OFFCURVE",
 "183 69 OFFCURVE",
 "149 106 CURVE",
@@ -36577,13 +36546,7 @@ nodes = (
 "147 279 LINE",
 "188 324 OFFCURVE",
 "240 346 OFFCURVE",
-"286 346 CURVE SMOOTH",
-"363 346 OFFCURVE",
-"420 292 OFFCURVE",
-"420 196 CURVE SMOOTH",
-"420 97 OFFCURVE",
-"359 45 OFFCURVE",
-"280 45 CURVE SMOOTH"
+"286 346 CURVE SMOOTH"
 );
 }
 );
@@ -36601,17 +36564,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"396 -11 OFFCURVE",
-"479 70 OFFCURVE",
-"479 201 CURVE SMOOTH",
-"479 327 OFFCURVE",
-"400 403 OFFCURVE",
-"278 403 CURVE SMOOTH",
-"220 403 OFFCURVE",
-"152 375 OFFCURVE",
-"106 329 CURVE",
-"129 341 LINE",
-"129 573 LINE",
 "35 573 LINE",
 "35 551 LINE",
 "100 551 LINE",
@@ -36623,12 +36575,29 @@ nodes = (
 "109 68 LINE",
 "147 19 OFFCURVE",
 "209 -11 OFFCURVE",
-"270 -11 CURVE SMOOTH"
+"270 -11 CURVE SMOOTH",
+"396 -11 OFFCURVE",
+"479 70 OFFCURVE",
+"479 201 CURVE SMOOTH",
+"479 327 OFFCURVE",
+"400 403 OFFCURVE",
+"278 403 CURVE SMOOTH",
+"220 403 OFFCURVE",
+"152 375 OFFCURVE",
+"106 329 CURVE",
+"129 341 LINE",
+"129 573 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"382 381 OFFCURVE",
+"450 310 OFFCURVE",
+"450 195 CURVE SMOOTH",
+"450 82 OFFCURVE",
+"379 11 OFFCURVE",
+"268 11 CURVE SMOOTH",
 "211 11 OFFCURVE",
 "148 44 OFFCURVE",
 "108 94 CURVE",
@@ -36637,13 +36606,7 @@ nodes = (
 "105 305 LINE",
 "153 351 OFFCURVE",
 "220 381 OFFCURVE",
-"275 381 CURVE SMOOTH",
-"382 381 OFFCURVE",
-"450 310 OFFCURVE",
-"450 195 CURVE SMOOTH",
-"450 82 OFFCURVE",
-"379 11 OFFCURVE",
-"268 11 CURVE SMOOTH"
+"275 381 CURVE SMOOTH"
 );
 }
 );
@@ -36661,17 +36624,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"453 -10 OFFCURVE",
-"522 76 OFFCURVE",
-"522 206 CURVE SMOOTH",
-"522 328 OFFCURVE",
-"458 413 OFFCURVE",
-"347 413 CURVE SMOOTH",
-"279 413 OFFCURVE",
-"231 382 OFFCURVE",
-"204 341 CURVE",
-"229 332 LINE",
-"229 593 LINE",
 "10 593 LINE",
 "10 493 LINE",
 "54 493 LINE",
@@ -36683,12 +36635,29 @@ nodes = (
 "174 65 LINE",
 "218 20 OFFCURVE",
 "268 -10 OFFCURVE",
-"341 -10 CURVE SMOOTH"
+"341 -10 CURVE SMOOTH",
+"453 -10 OFFCURVE",
+"522 76 OFFCURVE",
+"522 206 CURVE SMOOTH",
+"522 328 OFFCURVE",
+"458 413 OFFCURVE",
+"347 413 CURVE SMOOTH",
+"279 413 OFFCURVE",
+"231 382 OFFCURVE",
+"204 341 CURVE",
+"229 332 LINE",
+"229 593 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"315 283 OFFCURVE",
+"342 255 OFFCURVE",
+"342 201 CURVE SMOOTH",
+"342 154 OFFCURVE",
+"316 120 OFFCURVE",
+"274 120 CURVE SMOOTH",
 "244 120 OFFCURVE",
 "223 131 OFFCURVE",
 "202 154 CURVE",
@@ -36697,13 +36666,7 @@ nodes = (
 "207 242 LINE",
 "223 270 OFFCURVE",
 "245 283 OFFCURVE",
-"272 283 CURVE SMOOTH",
-"315 283 OFFCURVE",
-"342 255 OFFCURVE",
-"342 201 CURVE SMOOTH",
-"342 154 OFFCURVE",
-"316 120 OFFCURVE",
-"274 120 CURVE SMOOTH"
+"272 283 CURVE SMOOTH"
 );
 }
 );
@@ -42971,12 +42934,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"169 52 OFFCURVE",
-"108 103 OFFCURVE",
-"108 195 CURVE SMOOTH",
-"108 294 OFFCURVE",
-"163 348 OFFCURVE",
-"239 348 CURVE SMOOTH",
 "288 348 OFFCURVE",
 "345 324 OFFCURVE",
 "387 289 CURVE",
@@ -42985,7 +42942,13 @@ nodes = (
 "387 111 LINE",
 "349 74 OFFCURVE",
 "294 52 OFFCURVE",
-"247 52 CURVE SMOOTH"
+"247 52 CURVE SMOOTH",
+"169 52 OFFCURVE",
+"108 103 OFFCURVE",
+"108 195 CURVE SMOOTH",
+"108 294 OFFCURVE",
+"163 348 OFFCURVE",
+"239 348 CURVE SMOOTH"
 );
 }
 );
@@ -43041,12 +43004,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"135 19 OFFCURVE",
-"60 91 OFFCURVE",
-"60 197 CURVE SMOOTH",
-"60 306 OFFCURVE",
-"129 381 OFFCURVE",
-"229 381 CURVE SMOOTH",
 "292 381 OFFCURVE",
 "367 349 OFFCURVE",
 "409 305 CURVE",
@@ -43055,7 +43012,13 @@ nodes = (
 "407 98 LINE",
 "371 51 OFFCURVE",
 "299 19 OFFCURVE",
-"240 19 CURVE SMOOTH"
+"240 19 CURVE SMOOTH",
+"135 19 OFFCURVE",
+"60 91 OFFCURVE",
+"60 197 CURVE SMOOTH",
+"60 306 OFFCURVE",
+"129 381 OFFCURVE",
+"229 381 CURVE SMOOTH"
 );
 }
 );
@@ -43111,21 +43074,21 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"224 115 OFFCURVE",
-"198 148 OFFCURVE",
-"198 201 CURVE SMOOTH",
-"198 259 OFFCURVE",
-"225 288 OFFCURVE",
-"266 288 CURVE SMOOTH",
-"293 288 OFFCURVE",
-"316 275 OFFCURVE",
+"291 289 OFFCURVE",
+"315 276 OFFCURVE",
 "335 247 CURVE",
 "311 314 LINE",
 "311 80 LINE",
 "342 149 LINE",
 "319 126 OFFCURVE",
 "297 115 OFFCURVE",
-"266 115 CURVE SMOOTH"
+"266 115 CURVE SMOOTH",
+"224 115 OFFCURVE",
+"198 148 OFFCURVE",
+"198 201 CURVE SMOOTH",
+"198 257 OFFCURVE",
+"224 286 OFFCURVE",
+"263 288 CURVE SMOOTH"
 );
 }
 );
@@ -105160,10 +105123,6 @@ value = -320;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = weightClass;
-value = 275;
 }
 );
 interpolationWeight = 198;
@@ -106426,5 +106385,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 };
 };
 versionMajor = 3;
-versionMinor = 2;
+versionMinor = 102;
 }
